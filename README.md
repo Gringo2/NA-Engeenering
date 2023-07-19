@@ -7,7 +7,7 @@
   <br />
   <br />
 
-  <h2 align="center">NA-ENGINEERING- Church Website</h2>
+  <h2 align="center">NA-ENGINEERING</h2>
 
   NA-ENGINEERING is a fully responsive Enterprise website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
