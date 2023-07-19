@@ -1188,7 +1188,7 @@ body {
     gap: 80px 40px;
   }
 
-  .footer-bottom { grid-template-columns: 1fr 0.4fr 1fr; }
+  .footer-bottom { grid-template-columns: 1fr 1fr; }
 
   .footer-bottom-list { justify-content: flex-start; }
 
