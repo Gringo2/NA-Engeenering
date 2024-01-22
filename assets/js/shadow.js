@@ -151,12 +151,10 @@ customElements.define('hero-component', class extends HTMLElement {
         <h2 class="h2 section-title">
           Why us?
         </h2>
+        <br/>
+        
 
-        <p class="section-text">
-          Curabitur porttitor nulla vitae purus eleifend feugiat. Quisque faucibus sapien, ut porttitor lorem.
-        </p>
-
-        <ul class="feature-list" >
+        <ul style="margin-top: 5px;" class="feature-list" >
 
           <li data-reveal="right">
             <div class="feature-list-card">
