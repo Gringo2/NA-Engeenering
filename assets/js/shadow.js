@@ -149,7 +149,7 @@ customElements.define('hero-component', class extends HTMLElement {
       <div class="container">
 
         <h2 class="h2 section-title">
-          Passionate About Elegance and Beauty Design
+          Why us?
         </h2>
 
         <p class="section-text">
@@ -167,10 +167,9 @@ customElements.define('hero-component', class extends HTMLElement {
               </div>
 
               <div>
-                <h3 class="h4 card-title">100% Guarantee</h3>
 
                 <p class="card-text">
-                  Vestibulum in eros at lectus commodo
+                Our vision is to become the most Successful & Respected Company in the areas of   Engineering & Automotive Industry in Ethiopia. We   envisage our activities to demonstrate adequate Health, Safety and Environment standards.
                 </p>
               </div>
 
@@ -186,10 +185,10 @@ customElements.define('hero-component', class extends HTMLElement {
               </div>
 
               <div>
-                <h3 class="h4 card-title">Professional Staffs</h3>
+                
 
                 <p class="card-text">
-                  Vestibulum in eros at lectus commodo
+                Our mission is to provide clients’ products & services with the highest quality, timely and on budget. Our approach to working clients’ as partners also extends to our entire employees ensuring timely completion of projects & High quality execution. Prevention of Environment polluting activities, Death, Injury and Ill-Health to those at work & to those affected by our work activities is the primary attentions of our company.
                 </p>
               </div>
 
@@ -205,11 +204,32 @@ customElements.define('hero-component', class extends HTMLElement {
               </div>
 
               <div>
-                <h3 class="h4 card-title">Affordable Price</h3>
+                
 
                 <p class="card-text">
-                  Vestibulum in eros at lectus commodo
+                  Our Vision
+                  
                 </p>
+                <ul>
+                    <li>
+                    •	Unswerving to safe working environment
+                    </li>
+                    <li>
+                    •	Committed to the surrounding community
+                    </li>
+                    <li>
+                    •	Collaborative relationship
+                    </li>
+                    <li>
+                    •	Value customer satisfaction
+                    </li>
+                    <li>
+                    •	Maintain and continuously improve quality
+                    </li>
+                    <li>
+                    •	Committed HSE  to be everybody’s concern
+                    </li>
+                  </ul>
               </div>
 
             </div>
@@ -217,11 +237,7 @@ customElements.define('hero-component', class extends HTMLElement {
 
         </ul>
 
-        <p data-reveal>
-          Nunc cursus ante libero, et convallis eros tristique nec. Fusce consequat lectus dui, nec laoreet purus
-          venenatis id.
-        </p>
-
+        
       </div>
     </div>
 

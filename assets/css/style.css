@@ -477,9 +477,9 @@ body {
   gap: 40px;
 }
 
-.about-banner .img-1 { border-top-left-radius: var(--radius-50); }
+/* .about-banner .img-1 { border-top-left-radius: var(--radius-50); } */
 
-.about-banner .img-2 { border-bottom-right-radius: var(--radius-50); }
+/* .about-banner .img-2 { border-bottom-right-radius: var(--radius-50); } */
 
 .about .section-title { margin-block: 10px 25px; }
 

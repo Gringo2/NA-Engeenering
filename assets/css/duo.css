@@ -498,12 +498,12 @@
   }
   
   .feature-list-card .card-icon {
-    background-color: var(--french-bistre);
+    background-color: black;
     padding: 15px;
     padding-block-start: 20px;
     flex-shrink: 0;
     border-radius: var(--radius-6);
-    border-top-left-radius: 40px;
+    /* border-top-left-radius: 40px; */
   }
   
   .feature-list-card .card-title { margin-block-end: 12px; }
