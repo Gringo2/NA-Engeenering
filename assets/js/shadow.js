@@ -986,10 +986,10 @@ customElements.define('mv-component', class extends HTMLElement {
                 </h3>
 
                 <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                </p>
+                Our mission is to provide clients’ products & services with the highest quality, timely and on budget. 
+                Our approach to working clients’ as partners also extends to our entire employees ensuring timely completion
+                 of projects & High quality execution. Prevention of Environment polluting activities, Death, Injury and 
+                 Ill-Health to those at work & to those affected by our work activities is the primary attentions of our company.
 
               </div>
             </li>
@@ -1004,9 +1004,9 @@ customElements.define('mv-component', class extends HTMLElement {
                 </h3>
 
                 <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                Our vision is to become the most Successful & Respected Company in the areas of   
+                Engineering & Automotive Industry in Ethiopia. We   envisage our activities to 
+                demonstrate adequate Health, Safety and Environment standards.
                 </p>
 
                 
