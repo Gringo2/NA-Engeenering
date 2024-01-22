@@ -11,7 +11,7 @@
 
   NA-ENGINEERING is a fully responsive Enterprise website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://Gringo2.github.io/NA-ENGINEERING/"><strong>➥ Live Demo</strong></a>
+  <a href="https://gringo2.github.io/NA-Engeenering/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
