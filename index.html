@@ -16,7 +16,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./assets/images/loading.svg" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -66,7 +66,7 @@
     - #HEADER
   -->
 
-  <header style="z-index: 1000;" class="header" data-header>
+  <header  class="header" data-header>
     <div class="container">
 
       <a style="display: flex;" href="#" class="logo">
@@ -78,23 +78,23 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="index.html" class="navbar-link">Home</a>
+            <a href="#home" class="navbar-link">Home</a>
           </li>
 
           <li class="navbar-item">
-            <a href="about.html" class="navbar-link">About Us</a>
+            <a href="#about" class="navbar-link">About Us</a>
           </li>
 
           <li class="navbar-item">
-            <a href="services.html" class="navbar-link">Services</a>
+            <a href="#services" class="navbar-link">Services</a>
           </li>
 
           <li class="navbar-item">
-            <a href="products.html" class="navbar-link">Products</a>
+            <a href="#products" class="navbar-link">Products</a>
           </li>
 
           <li class="navbar-item">
-            <a href="contact.html" class="navbar-link">Contact Us</a>
+            <a href="#contact" class="navbar-link">Contact Us</a>
           </li>
 
         </ul>
@@ -289,7 +289,7 @@
         - #ABOUT
       -->
       
-      <section class="section about" aria-labelledby="about-label">
+      <section id="about" class="section about" aria-labelledby="about-label">
         <div style="margin-top: -10px; display: table; margin: auto;">
           <h2  class="h2 section-title">
             What We Do!
@@ -449,7 +449,13 @@
 
       </duo-component>
 
-      <service-component data-reveal>
+      <projects-component id="products" data-reveal="left">
+
+      </projects-component>
+ 
+
+
+      <service-component id="services" data-reveal>
         
       </service-component>
 
@@ -459,14 +465,11 @@
 
      </partner-component>
   
-     <testimonial-component>
+     <!-- <testimonial-component>
 
-    </testimonial-component>
+    </testimonial-component> -->
 
-     <projects-component data-reveal="left">
-
-     </projects-component>
-
+     
 
       <!-- 
         - #STATS
@@ -890,7 +893,7 @@
   <!--
     Contact
   -->
-  <contact-component>
+  <contact-component id="contact">
             
   </contact-component>
 
@@ -936,18 +939,22 @@
             to the domestic and East African markets
           </p>
 
-          <a href="#" class="btn-outline">
+          <!-- <a href="#" class="btn-outline">
             <span class="span">Get a quote</span>
 
             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-          </a>
+          </a> -->
 
         </div>
 
         <ul class="footer-list">
 
           <li>
-            <p class="h6 has-after">Company Info</p>
+            <p class="h6 has-after">Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
           </li>
 
           <li>
@@ -955,23 +962,15 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Our Projects</a>
+            <a href="#" class="footer-link">Services</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Meet Our Team</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">News & Media</a>
+            <a href="#" class="footer-link">Products</a>
           </li>
 
           <li>
             <a href="#" class="footer-link">Contact Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Careers</a>
           </li>
 
         </ul>
@@ -1004,7 +1003,7 @@
 
       <div class="footer-bottom">
 
-        <div>
+        <div style="padding: 20px 20px;">
           <!-- <ul class="footer-bottom-list">
 
             <li>

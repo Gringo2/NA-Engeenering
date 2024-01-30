@@ -315,7 +315,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: var(--white);
+  background-color: var(--black);
   z-index: 5;
   display: grid;
   place-items: center;
@@ -419,6 +419,9 @@ body {
   padding: 10px 15px;
 }
 
+.navbar-link a:active {
+ color: black;
+}
 
 
 
@@ -1383,7 +1386,7 @@ body {
   }
 
   .navbar-link:is(:hover, :focus-visible) { color: var(--smoky-black); }
-
+  .navbar-link:is(:active) { color: var(--smoky-black); }
   .header-action {
     display: flex;
     align-items: center;

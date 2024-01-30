@@ -397,9 +397,9 @@ customElements.define('projects-component', class extends HTMLElement {
       <section class="section project" aria-label="project">
         <div class="container">
 
-          <p class="section-subtitle">Projects</p>
+          <p class="section-subtitle">Products</p>
 
-          <h2 class="h2 section-title">Featured Projects</h2>
+          <h2 class="h2 section-title">Assembled Products</h2>
 
           <p class="section-text">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since
@@ -425,7 +425,7 @@ customElements.define('projects-component', class extends HTMLElement {
                   <p class="card-tag">Warehousing , Distrbution</p>
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">Warehouse inventory</a>
+                    <a href="#" class="card-title">HOWO 371 Heavy Duty 20ton SINOTRUK</a>
                   </h3>
 
                   <a href="#" class="card-link">Read More</a>
@@ -450,7 +450,7 @@ customElements.define('projects-component', class extends HTMLElement {
                   <p class="card-tag">Logistics, Analytics</p>
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">Minimize Manufacturing</a>
+                    <a href="#" class="card-title">HOWO  Medium Duty  10ton SINOTRUK</a>
                   </h3>
 
                   <a href="#" class="card-link">Read More</a>
@@ -475,7 +475,7 @@ customElements.define('projects-component', class extends HTMLElement {
                   <p class="card-tag">Warehousing , Distrbution</p>
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">Warehouse inventory</a>
+                    <a href="#" class="card-title">HOWO  Light Duty  5ton SINOTRUK</a>
                   </h3>
 
                   <a href="#" class="card-link">Read More</a>
@@ -607,14 +607,12 @@ customElements.define('service-component', class extends HTMLElement {
   <section class="section service" id="service" aria-label="service">
         <div class="container">
 
-          <p class="section-subtitle">All Services</p>
+          <p class="section-subtitle">Products</p>
 
-          <h2 class="h2 section-title">Trusted For Our Services</h2>
+          <h2 class="h2 section-title">Assembled Products</h2>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since
-            the when an
-            printer took.
+            at NA Metal Industry We Assemble and sale the following Products
           </p>
 
           <ul class="service-list grid-list">
