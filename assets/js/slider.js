@@ -8,9 +8,9 @@
  * loading will be end after document is loaded
  */
 
-const preloader = document.querySelector("[data-preaload]");
+const preloader = document.querySelector("[data-prealoader]");
 
-window.addEventListener("load", function () {
+window.addEventListener("onload", function () {
   preloader.classList.add("loaded");
   document.body.classList.add("loaded");
 });

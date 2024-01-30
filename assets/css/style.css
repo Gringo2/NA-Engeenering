@@ -320,7 +320,7 @@ body {
   display: grid;
   place-items: center;
   transition: var(--transition-1);
-  transition-delay: 1s;
+  transition-delay: 1000ms;
 }
 
 .preload-circle {
@@ -1310,8 +1310,9 @@ body {
    */
 
   .footer-top {
-    grid-template-columns: 1fr 0.8fr 0.4fr 0.9fr;
+    grid-template-columns: 1fr 0.4fr 1fr;
     align-items: flex-start;
+    gap: 3rem;
   }
 
   .newsletter-card {

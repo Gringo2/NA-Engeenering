@@ -848,22 +848,24 @@ customElements.define('contact-component', class extends HTMLElement {
         </button>
 
       </form>
-
-      <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+      
+      <div class="form-right text-center">
 
         <h2 class="headline-1 text-center">Contact Us</h2>
 
         <p class="contact-label">Hotline</p>
 
-        <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+88-123-123456</a>
+        <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+251-114-711620</a>
+        <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+251-114-711152</a>
+        <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+251-967-891954</a>
 
         <div class="separator"></div>
 
         <p class="contact-label">Location</p>
 
-        <address class="body-4">
-          Restaurant St, Delicious City, <br>
-          London 9578, UK
+        <address class="body-1 contact-number hover-underline">
+        Lebu  <br>
+        behind Haile Garment
         </address>
 
         <!-- <p class="contact-label">Lunch Time</p>
@@ -1731,25 +1733,25 @@ window.onload = function () {
 
     playSlide(currentSlide);
 
-    // keyboard shortcuts
-    this.shadowRoot.addEventListener("keyup", function (e) {
-        switch (e.keyCode) {
-            case 37:
-                testimLeftArrow.click();
-                break;
+    // // keyboard shortcuts
+    // this.shadowRoot.addEventListener("keyup", function (e) {
+    //     switch (e.keyCode) {
+    //         case 37:
+    //             testimLeftArrow.click();
+    //             break;
 
-            case 39:
-                testimRightArrow.click();
-                break;
+    //         case 39:
+    //             testimRightArrow.click();
+    //             break;
 
-            case 39:
-                testimRightArrow.click();
-                break;
+    //         case 39:
+    //             testimRightArrow.click();
+    //             break;
 
-            default:
-                break;
-        }
-    })
+    //         default:
+    //             break;
+    //     }
+    // })
 
     testim.addEventListener("touchstart", function (e) {
         touchStartPos = e.changedTouches[0].clientX;

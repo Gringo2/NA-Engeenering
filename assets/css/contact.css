@@ -54,7 +54,7 @@
   
     /* font-size */
     --fontSize-display-1: calc(1.3rem + 6.7vw);
-    --fontSize-headline-1: calc(2rem + 2.5vw);
+    --fontSize-headline-1: calc(1.2rem + 2vw);
     --fontSize-headline-2: calc(1.3rem + 2.4vw);
     --fontSize-title-1: calc(1.6rem + 1.2vw);
     --fontSize-title-2: 2.2rem;
@@ -1166,7 +1166,7 @@
     #RESERVATION
   \*-----------------------------------*/
   
-  .reservation-form { margin-block-start: 30px; }
+  .reservation-form { margin-block-start: 20px; }
   
   .form-text { margin-block-end: 40px; }
   
@@ -1469,7 +1469,7 @@
       margin-inline: auto;
     }
   
-    .contact-number { --fontSize-body-1: 3rem; }
+    .contact-number { --fontSize-body-1: 2.5rem; }
   
   
   
@@ -1924,9 +1924,10 @@
   
     .container,
     :is(.service, .event) .container {
-      max-width: 1200px;
+      max-width: 1400px;
       width: 100%;
       margin-inline: auto;
+      margin-bottom: 40px;
     }
   
   
