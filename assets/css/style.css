@@ -167,6 +167,13 @@ body {
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
+a:hover,
+a:active,
+a:focus {
+  color: #000000 !important;
+  outline: none;
+  text-decoration: none;
+}
 
 .container { padding-inline: 16px; }
 
@@ -419,9 +426,7 @@ body {
   padding: 10px 15px;
 }
 
-.navbar-link a:active {
- color: black;
-}
+
 
 
 

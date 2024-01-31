@@ -609,7 +609,7 @@ customElements.define('service-component', class extends HTMLElement {
 
           <p class="section-subtitle">Products</p>
 
-          <h2 class="h2 section-title">Assembled Products</h2>
+          <h2 class="h2 section-title">Fabricaated Products</h2>
 
           <p class="section-text">
             at NA Metal Industry We Assemble and sale the following Products
@@ -625,11 +625,11 @@ customElements.define('service-component', class extends HTMLElement {
                 </div>
 
                 <h3 class="h3 card-title">
-                  <span class="span">01</span> Air Freight
+                  <span class="span">01</span> 3-Axle Dry Cargo Drawbar Trailers
                 </h3>
 
                 <p class="card-text">
-                  Our aim is to optimize and improve your supply chain so that we can give you the best service.
+                  
                 </p>
 
                 <a href="#" class="btn-link">
@@ -649,11 +649,11 @@ customElements.define('service-component', class extends HTMLElement {
                 </div>
 
                 <h3 class="h3 card-title">
-                  <span class="span">02</span> Road Freight
+                  <span class="span">02</span> 	3-Axle Fuel Tank Drawbar Trailers
                 </h3>
 
                 <p class="card-text">
-                  Our aim is to optimize and improve your supply chain so that we can give you the best service.
+                  
                 </p>
 
                 <a href="#" class="btn-link">
@@ -673,11 +673,11 @@ customElements.define('service-component', class extends HTMLElement {
                 </div>
 
                 <h3 class="h3 card-title">
-                  <span class="span">03</span> Ocean Freight
+                  <span class="span">03</span> 	Cargo Body for Trucks
                 </h3>
 
                 <p class="card-text">
-                  Our aim is to optimize and improve your supply chain so that we can give you the best service.
+                  
                 </p>
 
                 <a href="#" class="btn-link">
@@ -697,11 +697,11 @@ customElements.define('service-component', class extends HTMLElement {
                 </div>
 
                 <h3 class="h3 card-title">
-                  <span class="span">04</span> Rail Freight
+                  <span class="span">04</span> 	3-Axle Dry Cargo Semi-Trailers
                 </h3>
 
                 <p class="card-text">
-                  Our aim is to optimize and improve your supply chain so that we can give you the best service.
+                  
                 </p>
 
                 <a href="#" class="btn-link">
@@ -721,11 +721,11 @@ customElements.define('service-component', class extends HTMLElement {
                 </div>
 
                 <h3 class="h3 card-title">
-                  <span class="span">05</span> Warehousing
+                  <span class="span">05</span> 	3-Axle Fuel Tank  Semi-Trailers
                 </h3>
 
                 <p class="card-text">
-                  Our aim is to optimize and improve your supply chain so that we can give you the best service.
+                  
                 </p>
 
                 <a href="#" class="btn-link">
@@ -737,29 +737,7 @@ customElements.define('service-component', class extends HTMLElement {
               </div>
             </li>
 
-            <li data-reveal="left">
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/service-icon-6.png" width="46" height="60" loading="lazy" alt="Paper">
-                </div>
-
-                <h3 class="h3 card-title">
-                  <span class="span">06</span> Project Cargo
-                </h3>
-
-                <p class="card-text">
-                  Our aim is to optimize and improve your supply chain so that we can give you the best service.
-                </p>
-
-                <a href="#" class="btn-link">
-                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
-
-                  <span class="span">View Detail</span>
-                </a>
-
-              </div>
-            </li>
+            
 
           </ul>
 

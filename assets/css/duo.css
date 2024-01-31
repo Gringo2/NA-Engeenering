@@ -498,6 +498,8 @@
   }
   
   .feature-list-card .card-icon {
+    min-height: 80px;
+    max-height: 80.15px;
     background-color: black;
     padding: 15px;
     padding-block-start: 20px;

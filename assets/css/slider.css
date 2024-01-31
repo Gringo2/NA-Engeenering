@@ -1,4 +1,22 @@
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
 /**
+ * responsive for large than 575px screen
+ */
+
+ .topbar{
+  display: none;
+ }
+
+ @media (min-width: 1024px) {
+
+  /**
+   * CUSTOM PROPERTY
+   */
+
+   /**
    * TOPBAR
    */
 
@@ -43,14 +61,16 @@
 
   .topbar .link:is(:hover, :focus-visible) { color: var(--gold-crayola); }
 
+  .header { top: 51px; }
+ }
+
 
 
   /**
    * HEADER
    */
 
-  .header { top: 51px; }
-
+  
   .header.active { top: 0; }
 
   .header .btn {
