@@ -20,7 +20,7 @@ customElements.define('hero-component', class extends HTMLElement {
           <li class="slider-item active" data-hero-slider-item>
 
             <div class="slider-bg">
-              <img src="./assets/images/slider1.jpg" width="1880" height="950" alt="" class="img-cover">
+              <img src="./assets/images/slider1.jpg" width="1980" height="950" alt="" class="img-cover">
             </div>
 
             <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
@@ -45,7 +45,7 @@ customElements.define('hero-component', class extends HTMLElement {
           <li class="slider-item" data-hero-slider-item>
 
             <div class="slider-bg">
-              <img src="./assets/images/slider2.jpg" width="1880" height="950" alt="" class="img-cover">
+              <img src="./assets/images/slider2.JPG" width="1980" height="950" alt="" class="img-cover">
             </div>
 
             <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
@@ -484,80 +484,11 @@ customElements.define('projects-component', class extends HTMLElement {
               </div>
             </li>
 
-            <li class="project-item" data-reveal="left">
-              <div class="project-card">
+            
 
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-4.jpg" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
-                </figure>
+            
 
-                <button class="action-btn" aria-label="View image">
-                  <ion-icon name="expand-outline"></ion-icon>
-                </button>
-
-                <div class="card-content">
-                  <p class="card-tag">Logistics, Analytics</p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Minimize Manufacturing</a>
-                  </h3>
-
-                  <a href="#" class="card-link">Read More</a>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="project-item" data-reveal="left">
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-5.jpg" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
-                </figure>
-
-                <button class="action-btn" aria-label="View image">
-                  <ion-icon name="expand-outline"></ion-icon>
-                </button>
-
-                <div class="card-content">
-                  <p class="card-tag">Warehousing , Distrbution</p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Warehouse inventory</a>
-                  </h3>
-
-                  <a href="#" class="card-link">Read More</a>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="project-item" data-reveal="left">
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-6.jpg" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
-                </figure>
-
-                <button class="action-btn" aria-label="View image">
-                  <ion-icon name="expand-outline"></ion-icon>
-                </button>
-
-                <div class="card-content">
-                  <p class="card-tag">Logistics, Analytics</p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Minimize Manufacturing</a>
-                  </h3>
-
-                  <a href="#" class="card-link">Read More</a>
-                </div>
-
-              </div>
-            </li>
+            
 
           </ul>
 
