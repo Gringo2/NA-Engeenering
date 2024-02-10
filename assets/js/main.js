@@ -61,21 +61,12 @@
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
-  function getHeight(element)
-{
-    element.style.visibility = "hidden";
-    document.body.appendChild(element);
-    var height = element.offsetHeight + 0;
-    document.body.removeChild(element);
-    element.style.visibility = "visible";
-    return height;
-}
   /**
    * Scrolls to an element with header offset
    */
   const scrollto = (el) => {
-     
-    let offset = getHeight(el)
+    let header = select('#header')
+    let offset = header.offsetHeight
 
     if (!header.classList.contains('header-scrolled')) {
       offset -= 20
@@ -123,21 +114,21 @@
   /**
    * Mobile nav toggle
    */
-  // on('click', '.mobile-nav-toggle', function(e) {
-  //   select('#navbar').classList.toggle('navbar-mobile')
-  //   this.classList.toggle('bi-list')
-  //   this.classList.toggle('bi-x')
-  // })
+  on('click', '.mobile-nav-toggle', function(e) {
+    select('#navbar').classList.toggle('navbar-mobile')
+    this.classList.toggle('bi-list')
+    this.classList.toggle('bi-x')
+  })
 
   /**
    * Mobile nav dropdowns activate
    */
-  // on('click', '.navbar .dropdown > a', function(e) {
-  //   if (select('#navbar').classList.contains('navbar-mobile')) {
-  //     e.preventDefault()
-  //     this.nextElementSibling.classList.toggle('dropdown-active')
-  //   }
-  // }, true)
+  on('click', '.navbar .dropdown > a', function(e) {
+    if (select('#navbar').classList.contains('navbar-mobile')) {
+      e.preventDefault()
+      this.nextElementSibling.classList.toggle('dropdown-active')
+    }
+  }, true)
 
   /**
    * Scrool with ofset on links with a class name .scrollto
@@ -145,6 +136,14 @@
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
       e.preventDefault()
+
+      let navbar = select('#navbar')
+      // if (navbar.classList.contains('navbar-mobile')) {
+      //   navbar.classList.remove('navbar-mobile')
+      //   let navbarToggle = select('.mobile-nav-toggle')
+      //   navbarToggle.classList.toggle('bi-list')
+      //   navbarToggle.classList.toggle('bi-x')
+      // }
       scrollto(this.hash)
     }
   }, true)
@@ -160,75 +159,24 @@
     }
   });
 
-  /**
-   * Initiate glightbox
-   */
-  // const glightbox = GLightbox({
-  //   selector: '.glightbox'
-  // });
-
-  /**
-   * Gallery Slider
-   */
-  // new Swiper('.gallery-slider', {
-  //   speed: 400,
-  //   loop: true,
-  //   centeredSlides: true,
-  //   autoplay: {
-  //     delay: 5000,
-  //     disableOnInteraction: false
-  //   },
-  //   slidesPerView: 'auto',
-  //   pagination: {
-  //     el: '.swiper-pagination',
-  //     type: 'bullets',
-  //     clickable: true
-  //   },
-  //   breakpoints: {
-  //     320: {
-  //       slidesPerView: 1,
-  //       spaceBetween: 20
-  //     },
-  //     575: {
-  //       slidesPerView: 2,
-  //       spaceBetween: 20
-  //     },
-  //     768: {
-  //       slidesPerView: 3,
-  //       spaceBetween: 20
-  //     },
-  //     992: {
-  //       slidesPerView: 5,
-  //       spaceBetween: 20
-  //     }
-  //   }
-  // });
-
-  /**
-   * Initiate gallery lightbox 
-   */
-  // const galleryLightbox = GLightbox({
-  //   selector: '.gallery-lightbox'
-  // });
 
   /**
    * Buy tickets select the ticket type on click
    */
-  // on('show.bs.modal', '#buy-ticket-modal', function(event) {
-  //   select('#buy-ticket-modal #ticket-type').value = event.relatedTarget.getAttribute('data-ticket-type')
-  // })
+  on('show.bs.modal', '#buy-ticket-modal', function(event) {
+    select('#buy-ticket-modal #ticket-type').value = event.relatedTarget.getAttribute('data-ticket-type')
+  })
 
   /**
    * Animation on scroll
    */
-  // window.addEventListener('load', () => {
-  //   AOS.init({
-  //     duration: 1000,
-  //     easing: 'ease-in-out',
-  //     once: true,
-  //     mirror: false
-  //   })
-  // }
-  // );
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
 
 })()
