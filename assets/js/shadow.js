@@ -160,7 +160,7 @@ customElements.define('hero-component', class extends HTMLElement {
             <div class="feature-list-card">
 
               <div class="card-icon">
-                <img src="./assets/images/feature-icon-1.svg" width="45" height="45" loading="lazy"
+                <img src="./assets/images/feature-icon-2.svg" width="45" height="45" loading="lazy"
                   alt="review icon">
               </div>
 
@@ -178,7 +178,7 @@ customElements.define('hero-component', class extends HTMLElement {
             <div class="feature-list-card">
 
               <div class="card-icon">
-                <img src="./assets/images/feature-icon-2.svg" width="45" height="45" loading="lazy"
+                <img src="./assets/images/feature-icon-1.svg" width="45" height="45" loading="lazy"
                   alt="badge icon">
               </div>
 
@@ -205,7 +205,7 @@ customElements.define('hero-component', class extends HTMLElement {
                 
 
                 <p class="card-text">
-                  Our Vision
+                  Our Values
                   
                 </p>
                 <ul>
@@ -287,42 +287,42 @@ customElements.define('partner-component', class extends HTMLElement {
       <div class="row">
         <div data-reveal="left" class="col-sm-6 col-md-4 col-lg-3">
           <div class="square-holder">
-            <img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/solar-communications-200.png" />
+            <img alt="" src="./assets/images/NA.png" />
           </div>
         </div>
         <div data-reveal-b class="col-sm-6 col-md-4 col-lg-3">
           <div class="square-holder">
-            <img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/cbf-200.png" />
+            <img alt="" src="./assets/images/NA.png" />
           </div>
         </div>
         <div data-reveal="right" class="col-sm-6 col-md-4 col-lg-3">
           <div class="square-holder">
-            <img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/gxs-200.png" />
+            <img alt="" src="./assets/images/NA.png" />
           </div>
         </div>
         <div  data-reveal-b class="col-sm-6 col-md-4 col-lg-3">
           <div class="square-holder">
-            <img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/jpr-200.png" />
+            <img alt="" src="./assets/images/NA.png" />
           </div>
         </div>
         <div data-reveal="right" class="col-sm-6 col-md-4 col-lg-3">
           <div class="square-holder">
-            <img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/talk-internet-200.png" />
+            <img alt="" src="./assets/images/NA.png" />
           </div>
         </div>
         <div data-reveal-b class="col-sm-6 col-md-4 col-lg-3">
           <div class="square-holder">
-            <img alt="" src="https://www.pmits.co.uk/Portals/0/img/opera3_logo.png" />
+            <img alt="" src="./assets/images/NA.png" />
           </div>
         </div>
         <div data-reveal="left" class="col-sm-6 col-md-4 col-lg-3">
           <div class="square-holder">
-            <img alt="" src="https://www.pmits.co.uk/Portals/0/pegasus-logo.png" />
+            <img alt="" src="./assets/images/NA.png" />
           </div>
         </div>
         <div data-reveal-b class="col-sm-6 col-md-4 col-lg-3">
           <div class="square-holder">
-            <img alt="" src="https://www.pmits.co.uk/Portals/0/sage business partner.jpg" />
+            <img alt="" src="./assets/images/NA.png" />
           </div>
         </div>
       </div>

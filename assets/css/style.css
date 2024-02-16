@@ -446,6 +446,7 @@ a:focus {
 .navbar.active {
   visibility: visible;
   height: 224px;
+  color: #000000;
   transition-duration: 0.5s;
 }
 
