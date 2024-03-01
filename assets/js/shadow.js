@@ -402,9 +402,7 @@ customElements.define('projects-component', class extends HTMLElement {
           <h2 class="h2 section-title">Assembled Products</h2>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since
-            the when an
-            printer took.
+            
           </p>
 
           <ul class="project-list">
@@ -413,7 +411,7 @@ customElements.define('projects-component', class extends HTMLElement {
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-1.jpg" width="397" height="352" loading="lazy"
+                  <img src="./assets/images/p4.png" width="397" height="352" loading="lazy"
                     alt="Warehouse inventory" class="img-cover">
                 </figure>
 
@@ -425,7 +423,7 @@ customElements.define('projects-component', class extends HTMLElement {
                   <p class="card-tag">Warehousing , Distrbution</p>
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">HOWO 371 Heavy Duty 20ton SINOTRUK</a>
+                    <a href="#" class="card-title">SINOTRUCK HOWO - 160 HP - 10-TON Capacity </a>
                   </h3>
 
                   <a href="#" class="card-link">Read More</a>
@@ -438,7 +436,7 @@ customElements.define('projects-component', class extends HTMLElement {
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-2.jpg" width="397" height="352" loading="lazy"
+                  <img src="./assets/images/p2.png" width="397" height="352" loading="lazy"
                     alt="Warehouse inventory" class="img-cover">
                 </figure>
 
@@ -450,7 +448,7 @@ customElements.define('projects-component', class extends HTMLElement {
                   <p class="card-tag">Logistics, Analytics</p>
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">HOWO  Medium Duty  10ton SINOTRUK</a>
+                    <a href="#" class="card-title">SINOTRUK HOWO-TX - 400HP - 20-TON Capacity</a>
                   </h3>
 
                   <a href="#" class="card-link">Read More</a>
@@ -463,7 +461,7 @@ customElements.define('projects-component', class extends HTMLElement {
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-3.jpg" width="397" height="352" loading="lazy"
+                  <img src="./assets/images/p3.png" width="397" height="352" loading="lazy"
                     alt="Warehouse inventory" class="img-cover">
                 </figure>
 
@@ -475,7 +473,145 @@ customElements.define('projects-component', class extends HTMLElement {
                   <p class="card-tag">Warehousing , Distrbution</p>
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">HOWO  Light Duty  5ton SINOTRUK</a>
+                    <a href="#" class="card-title">SINOTRUCK HOWO H5X - 220HP - 15-TON Capacity</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Read More</a>
+                </div>
+
+              </div>
+            </li>
+  
+          </ul>
+
+        </div>
+      </section>
+      
+  </body>
+  `;
+}
+connectedCallback() {
+  while (this.childNodes.length > 0) {
+      this.shadowRoot.appendChild(this.childNodes[0]);
+  }
+  /**
+ * #SCROLL REVEAL
+ */
+
+const revealElements = this.shadowRoot.querySelectorAll("[data-reveal]");
+
+const scrollReveal = function () {
+  for (let i = 0, x = revealElements.length; i < x; i++) {
+    if (revealElements[i].getBoundingClientRect().top < window.innerHeight / 1.2) {
+      revealElements[i].classList.add("revealed");
+    } else {
+      revealElements[i].classList.remove("revealed");
+    }
+  }
+}
+
+window.addEventListener("scroll", scrollReveal);
+window.addEventListener("load", scrollReveal);
+}
+});
+
+customElements.define('fabprojects-component', class extends HTMLElement {
+  constructor() {
+    super(); // always call super() first in the constructor.
+
+        // Attach a shadow root to <fancy-tabs>.
+  const shadowRoot = this.attachShadow({mode: 'open'});
+  shadowRoot.innerHTML = `
+  <body class="one">
+  <head>
+  <link rel="stylesheet" href="./assets/css/proj.css"/>
+  </head>
+  <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-label="project">
+        <div class="container">
+
+          <p class="section-subtitle">Products</p>
+
+          <h2 class="h2 section-title">Fabricated Products</h2>
+
+          <p class="section-text">
+            
+          </p>
+
+          <ul class="project-list">
+
+            
+
+
+            
+            <li class="project-item" data-reveal="left">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/p1.png" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag">Warehousing , Distrbution</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">DRY CARGO BODY PRODUCT - 20-ton Capacity</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Read More</a>
+                </div>
+
+              </div>
+            </li>
+            <li class="project-item" data-reveal="left">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/p5.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag">Warehousing , Distrbution</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">FUEL CARGO SEMI-TRAILER-40-45 M3 Capacity</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Read More</a>
+                </div>
+
+              </div>
+            </li>
+            <li class="project-item" data-reveal="left">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/p6.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag">Warehousing , Distrbution</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">3-AXLE DRY CARGO DRAWBAR TRAILER - 22-ton Capacity</a>
                   </h3>
 
                   <a href="#" class="card-link">Read More</a>
