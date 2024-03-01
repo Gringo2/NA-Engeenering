@@ -170,7 +170,7 @@ body {
 a:hover,
 a:active,
 a:focus {
-  color: #000000 !important;
+  /* color: #000000; */
   outline: none;
   text-decoration: none;
 }
@@ -877,7 +877,7 @@ a:focus {
 
 .footer .btn:is(:hover, :focus-visible) {
   background-color: var(--white);
-  color: var(--black);
+  
 }
 
 .footer .h6 {
@@ -915,7 +915,7 @@ a:focus {
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover, :focus-visible) { color: var(--yellow-green); }
+.footer-link:is(:hover, :focus-visible) { color: var(--yellow-green) !important; }
 
 .contact-link {
   font-size: var(--fs-5);
