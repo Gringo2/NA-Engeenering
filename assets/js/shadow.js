@@ -103,7 +103,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </button>
 
         <a href="#" class="hero-btn has-after">
-          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="">
 
           <span class="label-2 text-center span">Book A Table</span>
         </a>
@@ -198,7 +198,7 @@ customElements.define('hero-component', class extends HTMLElement {
 
               <div class="card-icon">
                 <img src="./assets/images/feature-icon-3.svg" width="45" height="45" loading="lazy"
-                  alt="money bag icon">
+                  alt="icon">
               </div>
 
               <div>
@@ -412,7 +412,7 @@ customElements.define('projects-component', class extends HTMLElement {
 
                 <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
                   <img src="./assets/images/p4.png" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
+                     class="img-cover">
                 </figure>
 
                 <button class="action-btn" aria-label="View image">
@@ -420,7 +420,7 @@ customElements.define('projects-component', class extends HTMLElement {
                 </button>
 
                 <div class="card-content">
-                  <p class="card-tag">Warehousing , Distrbution</p>
+                  <p class="card-tag"></p>
 
                   <h3 class="h3">
                     <a href="#" class="card-title">SINOTRUCK HOWO - 160 HP - 10-TON Capacity </a>
@@ -437,7 +437,7 @@ customElements.define('projects-component', class extends HTMLElement {
 
                 <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
                   <img src="./assets/images/p2.png" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
+                     class="img-cover">
                 </figure>
 
                 <button class="action-btn" aria-label="View image">
@@ -445,7 +445,7 @@ customElements.define('projects-component', class extends HTMLElement {
                 </button>
 
                 <div class="card-content">
-                  <p class="card-tag">Logistics, Analytics</p>
+                  <p class="card-tag"></p>
 
                   <h3 class="h3">
                     <a href="#" class="card-title">SINOTRUK HOWO-TX - 400HP - 20-TON Capacity</a>
@@ -462,7 +462,7 @@ customElements.define('projects-component', class extends HTMLElement {
 
                 <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
                   <img src="./assets/images/p3.png" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
+                     class="img-cover">
                 </figure>
 
                 <button class="action-btn" aria-label="View image">
@@ -470,7 +470,7 @@ customElements.define('projects-component', class extends HTMLElement {
                 </button>
 
                 <div class="card-content">
-                  <p class="card-tag">Warehousing , Distrbution</p>
+                  <p class="card-tag"></p>
 
                   <h3 class="h3">
                     <a href="#" class="card-title">SINOTRUCK HOWO H5X - 220HP - 15-TON Capacity</a>
@@ -552,7 +552,7 @@ customElements.define('fabprojects-component', class extends HTMLElement {
 
                 <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
                   <img src="./assets/images/p1.png" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
+                     class="img-cover">
                 </figure>
 
                 <button class="action-btn" aria-label="View image">
@@ -560,7 +560,7 @@ customElements.define('fabprojects-component', class extends HTMLElement {
                 </button>
 
                 <div class="card-content">
-                  <p class="card-tag">Warehousing , Distrbution</p>
+                  <p class="card-tag"></p>
 
                   <h3 class="h3">
                     <a href="#" class="card-title">DRY CARGO BODY PRODUCT - 20-ton Capacity</a>
@@ -576,7 +576,7 @@ customElements.define('fabprojects-component', class extends HTMLElement {
 
                 <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
                   <img src="./assets/images/p5.jpg" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
+                     class="img-cover">
                 </figure>
 
                 <button class="action-btn" aria-label="View image">
@@ -584,7 +584,7 @@ customElements.define('fabprojects-component', class extends HTMLElement {
                 </button>
 
                 <div class="card-content">
-                  <p class="card-tag">Warehousing , Distrbution</p>
+                  <p class="card-tag"></p>
 
                   <h3 class="h3">
                     <a href="#" class="card-title">FUEL CARGO SEMI-TRAILER-40-45 M3 Capacity</a>
@@ -600,7 +600,7 @@ customElements.define('fabprojects-component', class extends HTMLElement {
 
                 <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
                   <img src="./assets/images/p6.jpg" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
+                     class="img-cover">
                 </figure>
 
                 <button class="action-btn" aria-label="View image">
@@ -608,7 +608,7 @@ customElements.define('fabprojects-component', class extends HTMLElement {
                 </button>
 
                 <div class="card-content">
-                  <p class="card-tag">Warehousing , Distrbution</p>
+                  <p class="card-tag"></p>
 
                   <h3 class="h3">
                     <a href="#" class="card-title">3-AXLE DRY CARGO DRAWBAR TRAILER - 22-ton Capacity</a>
