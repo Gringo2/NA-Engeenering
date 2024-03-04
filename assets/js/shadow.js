@@ -407,55 +407,32 @@ customElements.define('projects-component', class extends HTMLElement {
 
           <ul class="project-list">
 
-            <li class="project-item" data-reveal="left">
-              <div class="project-card">
+          <li class="project-item" data-reveal="left">
+          <div class="project-card">
 
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/p4.png" width="397" height="352" loading="lazy"
-                     class="img-cover">
-                </figure>
+            <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+              <img src="./assets/images/p2.png" width="397" height="352" loading="lazy"
+                 class="img-cover">
+            </figure>
 
-                <button class="action-btn" aria-label="View image">
-                  <ion-icon name="expand-outline"></ion-icon>
-                </button>
+            <button class="action-btn" aria-label="View image">
+              <ion-icon name="expand-outline"></ion-icon>
+            </button>
 
-                <div class="card-content">
-                  <p class="card-tag"></p>
+            <div class="card-content">
+              <p class="card-tag"></p>
 
-                  <h3 class="h3">
-                    <a href="#" class="card-title">SINOTRUCK HOWO - 160 HP - 10-TON Capacity </a>
-                  </h3>
+              <h3 class="h3">
+                <a href="#" class="card-title">SINOTRUK HOWO-TX - 400HP - 20-TON Capacity</a>
+              </h3>
 
-                  <a href="#" class="card-link">Read More</a>
-                </div>
+              <a href="#" class="card-link">Read More</a>
+            </div>
 
-              </div>
-            </li>
+          </div>
+        
 
-            <li class="project-item" data-reveal="left">
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/p2.png" width="397" height="352" loading="lazy"
-                     class="img-cover">
-                </figure>
-
-                <button class="action-btn" aria-label="View image">
-                  <ion-icon name="expand-outline"></ion-icon>
-                </button>
-
-                <div class="card-content">
-                  <p class="card-tag"></p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">SINOTRUK HOWO-TX - 400HP - 20-TON Capacity</a>
-                  </h3>
-
-                  <a href="#" class="card-link">Read More</a>
-                </div>
-
-              </div>
-            </li>
+            
 
             <li class="project-item" data-reveal="left">
               <div class="project-card">
@@ -481,7 +458,109 @@ customElements.define('projects-component', class extends HTMLElement {
 
               </div>
             </li>
+
+            </li>
+            <li class="project-item" data-reveal="left">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/p4.png" width="397" height="352" loading="lazy"
+                     class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag"></p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">SINOTRUCK HOWO - 160 HP - 10-TON Capacity </a>
+                  </h3>
+
+                  <a href="#" class="card-link">Read More</a>
+                </div>
+
+              </div>
+            </li>
   
+          </ul>
+
+          <ul class="project-list">
+          <li class="project-item" data-reveal="left">
+          <div class="project-card">
+
+            <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+              <img src="./assets/images/p44.webp" width="397" height="352" loading="lazy"
+                 class="img-cover">
+            </figure>
+
+            <button class="action-btn" aria-label="View image">
+              <ion-icon name="expand-outline"></ion-icon>
+            </button>
+
+            <div class="card-content">
+              <p class="card-tag"></p>
+
+              <h3 class="h3">
+                <a href="#" class="card-title">SINOTRUCK HOWO - 80 HP - 5-TON Capacity </a>
+              </h3>
+
+              <a href="#" class="card-link">Read More</a>
+            </div>
+
+          </div>
+        </li>
+        <li class="project-item" data-reveal="left">
+          <div style="display:none;" class="project-card">
+
+            <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+              <img src="./assets/images/p44.png" width="397" height="352" loading="lazy"
+                 class="img-cover">
+            </figure>
+
+            <button class="action-btn" aria-label="View image">
+              <ion-icon name="expand-outline"></ion-icon>
+            </button>
+
+            <div class="card-content">
+              <p class="card-tag"></p>
+
+              <h3 class="h3">
+                <a href="#" class="card-title">SINOTRUCK HOWO - 80 HP - 5-TON Capacity </a>
+              </h3>
+
+              <a href="#" class="card-link">Read More</a>
+            </div>
+
+          </div>
+        </li>
+        <li class="project-item" data-reveal="left">
+          <div style="display:none;" class="project-card">
+
+            <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+              <img src="./assets/images/p44.png" width="397" height="352" loading="lazy"
+                 class="img-cover">
+            </figure>
+
+            <button class="action-btn" aria-label="View image">
+              <ion-icon name="expand-outline"></ion-icon>
+            </button>
+
+            <div class="card-content">
+              <p class="card-tag"></p>
+
+              <h3 class="h3">
+                <a href="#" class="card-title">SINOTRUCK HOWO - 80 HP - 5-TON Capacity </a>
+              </h3>
+
+              <a href="#" class="card-link">Read More</a>
+            </div>
+
+          </div>
+        </li>
+        
           </ul>
 
         </div>
@@ -576,7 +655,7 @@ customElements.define('fabprojects-component', class extends HTMLElement {
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/p6.jpg" width="397" height="352" loading="lazy"
+                  <img src="./assets/images/pp5.jpg" width="397" height="352" loading="lazy"
                      class="img-cover">
                 </figure>
 
@@ -620,6 +699,9 @@ customElements.define('fabprojects-component', class extends HTMLElement {
 
               </div>
             </li>
+
+            
+            
             
 
             
@@ -628,6 +710,81 @@ customElements.define('fabprojects-component', class extends HTMLElement {
 
             
 
+          </ul>
+          <ul style="flex-wrap: nowrap;" class="project-list">
+          <li class="project-item" data-reveal="left">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/p6.jpg" width="397" height="352" loading="lazy"
+                     class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag"></p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Fuel Cargo Drawbar Trailer</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Read More</a>
+                </div>
+
+              </div>
+            </li>
+          <li class="project-item" data-reveal="left">
+          <div class="project-card">
+
+            <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+              <img src="./assets/images/p7.jpg" width="397" height="352" loading="lazy"
+                 class="img-cover">
+            </figure>
+
+            <button class="action-btn" aria-label="View image">
+              <ion-icon name="expand-outline"></ion-icon>
+            </button>
+
+            <div class="card-content">
+              <p class="card-tag"></p>
+
+              <h3 class="h3">
+                <a href="#" class="card-title">Fuel cargo body product</a>
+              </h3>
+
+              <a href="#" class="card-link">Read More</a>
+            </div>
+
+          </div>
+        </li>
+
+        <li class="project-item" data-reveal="left">
+              <div style="display:none;" class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/p6.jpg" width="397" height="352" loading="lazy"
+                     class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag"></p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Fuel Cargo Drawbar Trailer</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Read More</a>
+                </div>
+
+              </div>
+            </li>
           </ul>
 
         </div>
@@ -909,8 +1066,8 @@ customElements.define('contact-component', class extends HTMLElement {
         <p class="contact-label">Location</p>
 
         <address class="body-1 contact-number hover-underline">
-        Lebu  <br>
-        behind Haile Garment
+        Lafto Road<br>
+        Haile Garment Square
         </address>
 
         <!-- <p class="contact-label">Lunch Time</p>
