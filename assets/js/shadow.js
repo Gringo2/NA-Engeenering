@@ -140,7 +140,7 @@ customElements.define('hero-component', class extends HTMLElement {
 
     <div  data-reveal="right" class="feature-banner has-bg-image has-after"
       style="background-image: url('./assets/images/feature-banner.jpg')">
-      <button class="play-btn" aria-label="play video: man making handmade belt">
+      <button style="display:none;" class="play-btn" aria-label="play video: man making handmade belt">
         <img data-reveal src="./assets/images/play.svg" width="60" height="60" loading="lazy" alt="play icon">
       </button>
     </div>
@@ -571,30 +571,7 @@ customElements.define('fabprojects-component', class extends HTMLElement {
 
               </div>
             </li>
-            <li class="project-item" data-reveal="left">
-              <div class="project-card">
 
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/p5.jpg" width="397" height="352" loading="lazy"
-                     class="img-cover">
-                </figure>
-
-                <button class="action-btn" aria-label="View image">
-                  <ion-icon name="expand-outline"></ion-icon>
-                </button>
-
-                <div class="card-content">
-                  <p class="card-tag"></p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">FUEL CARGO SEMI-TRAILER-40-45 M3 Capacity</a>
-                  </h3>
-
-                  <a href="#" class="card-link">Read More</a>
-                </div>
-
-              </div>
-            </li>
             <li class="project-item" data-reveal="left">
               <div class="project-card">
 
@@ -619,6 +596,31 @@ customElements.define('fabprojects-component', class extends HTMLElement {
 
               </div>
             </li>
+            <li class="project-item" data-reveal="left">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="./assets/images/p5.jpg" width="397" height="352" loading="lazy"
+                     class="img-cover">
+                </figure>
+
+                <button class="action-btn" aria-label="View image">
+                  <ion-icon name="expand-outline"></ion-icon>
+                </button>
+
+                <div class="card-content">
+                  <p class="card-tag"></p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">FUEL CARGO SEMI-TRAILER-40-45 M3 Capacity</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Read More</a>
+                </div>
+
+              </div>
+            </li>
+            
 
             
 
