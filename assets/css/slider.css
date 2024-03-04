@@ -61,7 +61,7 @@
 
   .topbar .link:is(:hover, :focus-visible) { color: var(--gold-crayola); }
 
-  .header { top: 51px; }
+  /* .header { top: 51px; } */
  }
 
 
