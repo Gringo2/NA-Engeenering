@@ -660,7 +660,7 @@
   
   .project-list {
     display: flex;
-    /* overflow-x: auto; */
+    overflow-x: auto;
     gap: 20px;
     padding-block-end: 40px;
     scroll-snap-type: inline mandatory;
